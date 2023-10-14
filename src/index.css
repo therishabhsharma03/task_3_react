@@ -1,0 +1,43 @@
+
+
+.color-switcher{
+  height: 60%;
+  width: 60%;
+
+  background-color: var(--bg-color);
+  position:absolute;
+  margin-top: 15%;
+  margin-left: 18%;
+  border-radius: 20px;
+
+}
+
+.heading{
+  font-size: 1.2rem;
+  
+}
+.color-list{
+  display: grid;
+  grid-template-columns: repeat(15,1fr);
+  gap: 1rem;
+}
+.color-item{
+  align-items: center;
+  text-align: center;
+  margin-top:200px;
+width: 3rem;
+height: 3rem;
+background-color: var(--bg-color);
+border-radius: 5px;
+cursor: pointer;
+}
+
+button{
+  width: 5rem;;
+  height: 3rem;
+  background-color: aliceblue;
+  position: absolute;
+  left: 0;
+  transform: translate(-100%,50%)
+  
+}
